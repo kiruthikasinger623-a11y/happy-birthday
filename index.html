@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Birthday ❤️</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- START SCREEN -->
+    <section id="startScreen" class="screen">
+        <div class="heart">💗</div>
+
+        <h1>Happy Birthday</h1>
+
+        <button onclick="startJourney()">
+            💖 Tap to Begin
+        </button>
+    </section>
+
+
+    <!-- JOURNEY -->
+    <main id="journey" class="hidden">
+
+        <!-- 1 -->
+        <section class="journey-card">
+            <div class="icon">💗</div>
+            <h2>The First Moment I Noticed You</h2>
+
+            <button onclick="playVoice(1)">
+                🔊 Listen
+            </button>
+
+            <button onclick="nextSection()">
+                👉 Continue
+            </button>
+        </section>
+
+
+        <!-- 2 -->
+        <section class="journey-card">
+            <div class="icon">🫶</div>
+            <h2>Things I Remember About You</h2>
+
+            <button onclick="playVoice(2)">
+                🔊 Listen
+            </button>
+
+            <button onclick="nextSection()">
+                👉 Continue
+            </button>
+        </section>
+
+
+        <!-- 3 -->
+        <section class="journey-card">
+            <div class="icon">🌸</div>
+            <h2>Our Memory Garden</h2>
+
+            <button onclick="playVoice(3)">
+                🔊 Listen
+            </button>
+
+            <button onclick="nextSection()">
+                👉 Continue
+            </button>
+        </section>
+
+
+        <!-- 4 -->
+        <section class="journey-card">
+            <div class="icon">🎁</div>
+            <h2>Mystery Boxes</h2>
+
+            <button onclick="playVoice(4)">
+                🔊 Listen
+            </button>
+
+            <button onclick="nextSection()">
+                👉 Continue
+            </button>
+        </section>
+
+
+        <!-- 5 -->
+        <section class="journey-card">
+            <div class="icon">🎂</div>
+            <h2>Make a Wish</h2>
+
+            <button onclick="playVoice(5)">
+                🔊 Listen
+            </button>
+
+            <button onclick="nextSection()">
+                👉 Continue
+            </button>
+        </section>
+
+
+        <!-- 6 -->
+        <section class="journey-card">
+            <div class="icon">🎥</div>
+            <h2>A Video From Me</h2>
+
+            <button onclick="playVoice(6)">
+                🔊 Listen
+            </button>
+
+            <button onclick="nextSection()">
+                👉 Continue
+            </button>
+        </section>
+
+
+        <!-- 7 -->
+        <section class="journey-card final">
+            <div class="icon">💖</div>
+            <h2>FINAL HEART MOMENT</h2>
+
+            <button onclick="playVoice(7)">
+                🔊 Listen
+            </button>
+        </section>
+
+    </main>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
